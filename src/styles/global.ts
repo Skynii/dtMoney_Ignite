@@ -10,6 +10,7 @@ import { createGlobalStyle } from 'styled-components';
     --text-title: #363f5f;
     --text-body:#969Cb3;
     --shape:#FFFFFF;
+    --green:#33cc95;
     --poppins: 'Poppins', sans-serif;
     
 }
