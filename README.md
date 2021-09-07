@@ -1,4 +1,4 @@
-# dtMoney - Controle de FInaças Pessoais
+# dtMoney - Controle de Finanças Pessoais
 
 ### Em Construção 🚧
 
