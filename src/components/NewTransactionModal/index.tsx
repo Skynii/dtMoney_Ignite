@@ -4,7 +4,7 @@ import incomeImg from '../../assets/income.svg'
 import outcomeImg from '../../assets/outcome.svg'
 import { FormEvent, useState } from 'react';
 import { Container, TransactionTypeContainer , RadioBox} from './styles';
-
+import { api } from '../../services/api';
 interface NewTransactionModalProps{
     isOpen: boolean;
     onRequestClose:() => void;
@@ -22,11 +22,13 @@ export function NewTransactionModal({isOpen, onRequestClose}: NewTransactionModa
     function handleCreateNewTransaction(event:FormEvent) {//previne atualização do formulário
         event.preventDefault();
     
-    console.log({
+    const data ={
         title,
         value,
         category
-    })
+    };
+
+        api.post('/transactions', data)
     }
     
     
