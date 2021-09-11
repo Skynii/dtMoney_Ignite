@@ -15,6 +15,7 @@
 
 ### Como rodar a aplicação
 
+```bash
 # Clone este repositório
 $ git clone <https://github.com/Skynii/dtMoney_Ignite.git>
 
@@ -28,7 +29,7 @@ $ npm install -g yarn
 $ yarn start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000> 
-
+```
 
 ### 🛠 Tecnologias
 
