@@ -37,5 +37,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Axios] (https://axios-http.com/docs/intro/)
-- [Mirage Js] (https://miragejs.com/)
+- [Axios](https://axios-http.com/docs/intro/)
+- [Mirage Js](https://miragejs.com/)
